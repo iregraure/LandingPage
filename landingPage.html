@@ -1,0 +1,131 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>ROI 2020</title>
+        <link rel="stylesheet" type="text/css" href="landingPage.css" media="screen">
+    </head>
+
+    <body>
+        <!--Llamada de atención a los visitantes-->
+        <div id="header">
+            <h1>Vuelve Revolution On Ice</h1>
+            <h2>Con sesiones sábados y domingos para mantener el número de espectadores</h2>
+        </div>
+        <!--Explicación y muestra de horarios-->
+        <div id="content">
+            <p>A pesar de las medidas excepcionales debido a la pandemia Javier Fernandez nos vuelve a traer su espectáculo
+                sobre hielo durante los meses de noviembre y diciembre.
+                Para mantener las normas de seguridad sin disminuir la cantidad de espectadores, los patinadores actuarán
+                dos
+                días consecutivos, sábado y domingo, y en algunos
+                casos con sesiones por la mañana y por la tarde.
+            </p>
+            <p>A continuación os dejamos una lista con las ciudades y las fechas confirmadas hasta el momento:</p>
+            <ul>
+                <li>Zaragoza
+                    <ul class="anidada">
+                        <li>Sábado 21 Noviembre 20:00</li>
+                        <li>Domingo 22 Noviembre 20:00</li>
+                    </ul>
+                </li>
+                <li>Sevilla
+                    <ul class="anidada">
+                        <li>Sábado 12 Diciembre 21:00</li>
+                        <li>Domingo 13 Diciembre 20:30</li>
+                    </ul>
+                </li>
+                <li>Madrid
+                    <ul class="anidada">
+                        <li>Sábado 19 Diciembre 11:30</li>
+                        <li>Sábado 19 Diciembre 22:00</li>
+                        <li>Domingo 20 Diciembre 20:00</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--Formulario-->
+        <div id="form">
+            <h3>Queremos conocerte</h3>
+            <p>Rellena este pequeño cuestionario de forma totalmente anónima para que podamos conoceros mejor y podamos
+                preparar
+                un espectáculo cada vez mejor.
+            </p>
+            <form>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="sexo">Sexo</label>
+                    <input type="radio" name="sexo" value="hombre"> Hombre
+                    <input type="radio" name="sexo" value="mujer"> Mujer
+                    <br/><br/>
+                    <label for="edad">Selecciona tu rango de edad: </label>
+                    <select name="edad">
+                        <option value="" selected="selected">-- Selecciona --</option>
+                        <option value="menor">Menos de 18</option>
+                        <option value="18-25">Entre 18 y 25</option>
+                        <option value="26-35">Entre 26 y 35</option>
+                        <option value="35-45">Entre 35 y 45</option>
+                        <option value="mayor">Más de 45</option>
+                    </select>
+                    <br/><br/>
+                    <label for="email">Correo electrónico (esto es necesario para verificar que cada persona solo rellena el formulario 1 vez)</label>
+                    <input type="text" name="email">
+                </fieldset>
+                <br/>
+                <fieldset>
+                    <legend>Preferencias sobre el show</legend>
+                    <label for="tipo">Selecciona el/los tipos de espectáculo que más te gustan:</label>
+                    <br/><br/>
+                    <table>
+                        <tr>
+                            <td><input type="checkbox" name="masculino" value="masculino">Masculino</td>
+                            <td><input type="checkbox" name="femenino" value="femenino">Femenino</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="pareja" value="pareja">Parejas</td>
+                            <td><input type="checkbox" name="danza" value="danza">Danza</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="nuevos" value="nuevos">Nuevos talentos</td>
+                            <td><input type="checkbox" name="acrobacias" value="acrobacias">Acrobacias sobre el hielo</td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </div>
+        <!--Imagenes de espectáculos anteriores-->
+        <div id="media">
+            <h3>Aquí os dejamos algunas imágenes de nuestro espectáculo del año pasado</h3>
+            <div id="imagenes">
+                <div class="image">
+                    <img src="imagenes/Ashley.jpg">
+                </div>
+                <div class="image">
+                    <img src="imagenes/Jeffry.jpg">
+                </div>
+                <div class="image">
+                    <img src="imagenes/Joven_promesa1.jpg">
+                </div>
+                <div class="image">
+                    <img src="imagenes/Plushenko.jpg">
+                </div>
+                <div class="image">
+                    <img src="imagenes/Joven_promesa2.jpg">
+                </div>
+                <div class="image">
+                    <img src="imagenes/Anna_e_Luca.jpg">
+                </div>
+                <div class="image">
+                    <img src="imagenes/Celia_y_Javi.jpg">
+                </div>
+                <div class="image">
+                    <img src="imagenes/Olivia_y_Adria.jpg">
+                </div>
+                <div class="image">
+                    <img src="imagenes/Equipo.jpg">
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
